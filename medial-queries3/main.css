@@ -1,3 +1,130 @@
 body {
-  background: peachpuff;
+    background: peachpuff;
+}
+@media screen and (max-width: 750px) {
+    .a {
+        width: 600px;
+        height: 100px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .b {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .c {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 42%;
+        left: 35%;
+    }
+    .d {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 42%;
+        left: 70%;
+    }
+    .e {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .f {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 5%;
+        left: 35%;
+    }
+    .g {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 5%;
+        left: 70%;
+    }
+    .h {
+        width: 600px;
+        height: 450px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .a {
+        width: 900px;
+        height: 100px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .b {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .c {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 42%;
+        left: 22%;
+    }
+    .d {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 42%;
+        left: 44%;
+    }
+    .e {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+    }
+    .f {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 7%;
+        left: 22%;
+    }
+    .g {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        bottom: 7%;
+        left: 44%;
+    }
+    .h {
+        width: 200px;
+        height: 450px;
+        background-color: chartreuse;
+        margin: 20px;
+        position: absolute;
+        right: 10%;
+        top: 19%;
+    }
 }

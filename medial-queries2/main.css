@@ -1,3 +1,138 @@
 body {
-  background: papayawhip;
+    background: papayawhip;
+}
+@media screen and (min-width: 900px) {
+    .container {
+        display: flex;
+        width: auto;
+    }
+    .a {
+        width: 900px;
+        height: 150px;
+        position: abso;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .b {
+        height: 150px;
+        width: 600px;
+        position: absolute;
+        top: 30%;
+        right: 42%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .c {
+        height: 150px;
+        position: absolute;
+        top: 60%;
+        width: 150px;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .d {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 60%;
+        right: 65%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .e {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 60%;
+        right: 45%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .f {
+        height: 300px;
+        width: 150px;
+        position: absolute;
+        top: 30%;
+        right: 20%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        width: auto;
+    }
+    .a {
+        width: 480px;
+        margin: 1%;
+        height: 70px;
+        position: absolute;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .b {
+        margin: 1%;
+
+        height: 200px;
+        width: 480px;
+        position: absolute;
+        top: 15%;
+        right: -10;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .c {
+        height: 150px;
+        width: 150px;
+        margin: 1%;
+
+        position: absolute;
+        top: 50%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .d {
+        margin: 1%;
+
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 50%;
+        right: 37%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .e {
+        margin: 1%;
+
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        background-color: red;
+        border-color: blue;
+        border-width: 10px;
+    }
+    .f {
+        height: 150px;
+        width: 500px;
+        position: absolute;
+        top: 75%;
+
+        background-color: purple;
+        border-color: blue;
+        border-width: 10px;
+    }
 }
